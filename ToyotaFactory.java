@@ -1,7 +1,5 @@
 import javax.swing.JOptionPane;
 
-import Laboratorio.Vehicle;
-
 public class ToyotaFactory extends VehicleFactory{
 
     @Override

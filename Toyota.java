@@ -1,9 +1,14 @@
 
 import javax.swing.JOptionPane;
 
-import Laboratorio.Vehicle;
+public class Toyota extends Vehicle {
 
-public class Toyota implements Vehicle {
+    public Toyota(String marca,String modelo, double precio) {
+        super(marca, modelo,  precio); {
+        
+    }
+
+}
 
     @Override
     public void WheelChange() {
@@ -22,7 +27,7 @@ public class Toyota implements Vehicle {
     public void MotorFix(double precio) {
         double motor;
         motor = 300 + (precio * 0.001);
-        JOptionPane.showMessageDialog(null, "Se le cobro: " +  motor + " por el arreglo al motor");
+        JOptionPane.showMessageDialog(null, "Se le cobro: " + motor + " por el arreglo al motor");
     }
 
     @Override

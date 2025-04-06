@@ -1,13 +1,11 @@
 import javax.swing.JOptionPane;
 
-import Laboratorio.Vehicle;
-
-public class BMWFactory extends VehicleFactory{
+public class BMWFactory extends VehicleFactory {
 
     @Override
-    public Vehicle createVehicle() {
-        JOptionPane.showMessageDialog(null, "Se vendio un BMW");
-                return null;
+    public Vehicle createVehicle(String marca,String modelo, double precio) {
+        JOptionPane.showMessageDialog(null, "Se vendió un BMW");
+        return new BMW(marca, modelo,  precio); 
     }
     
 }

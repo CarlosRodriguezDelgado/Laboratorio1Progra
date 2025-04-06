@@ -1,8 +1,6 @@
 import javax.swing.JOptionPane;
 
-import Laboratorio.Vehicle;
-
-public class BMW implements Vehicle {
+public class BMW extends Vehicle {
 
 
     @Override

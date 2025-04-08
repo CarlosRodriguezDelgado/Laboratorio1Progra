@@ -13,7 +13,7 @@ public abstract class Vehicle {
         this.precio= precio;
        
     }
-    ArrayList<Cost> listaCostos = new ArrayList<>();
+    ArrayList<Double> listaCostos = new ArrayList<>();
 
     public abstract void OilChange(double precio);
 

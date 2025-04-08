@@ -3,6 +3,11 @@ import javax.swing.JOptionPane;
 public class BMW extends Vehicle {
 
 
+    public BMW(String marca, String modelo, double precio) {
+        super(marca, modelo, precio);
+        
+    }
+
     @Override
     public void WheelChange() {
         JOptionPane.showMessageDialog(null, "Se le cobro: " + 300 + " por el cambio de llantas");
